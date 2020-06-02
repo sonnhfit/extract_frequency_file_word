@@ -2,7 +2,7 @@ import docx2txt
 import pandas as pd
 
 #file word định dạng docx
-my_text = docx2txt.process("OECD-converted.docx")
+my_text = docx2txt.process("OECD.docx")
 
 # Python code to find frequency of each word 
 def freq(str):
